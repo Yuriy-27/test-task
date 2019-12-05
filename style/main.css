@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body,
+html {
+  margin: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1440px;
+  height: 820px;
+  background: url("../images/bg-crypto.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 35px;
+  margin-top: 14px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.crypto-exchange {
+  width: 193px;
+  height: 100%;
+  background-image: url("../images/cryptoexch.png");
+}
+
+nav {
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 555px;
+  height: 19px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background-color: #331139;
+  color: #ffffff;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 162px;
+  height: 37px;
+  background-color: #331139;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 771px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.left_section {
+  width: 50%;
+  height: 100%;
+}
+.right_section {
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.title {
+  margin-top: 151px;
+  width: 100%;
+  height: 96px;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #333333;
+}
+
+.subtitle {
+  margin-top: 45px;
+  width: 75%;
+  height: 91px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #341139;
+}
+
+.logo {
+  margin-top: 55px;
+  width: 145px;
+  height: 71px;
+  background-image: url("../images/trustpilot.png");
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 106px;
+  width: 444px;
+  height: 495px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.form-title {
+  margin-top: 40px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #212121;
+  text-align: center;
+}
+
+.currency_selection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+  width: 100%;
+  height: 42px;
+}
+
+.currency_selection > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 3px;
+  border: solid 1px #efefef;
+}
+
+.currency_selection > div:hover {
+  cursor: pointer;
+  border: 1px solid #212121;
+}
+
+.advcash {
+  width: 27%;
+}
+.visa,
+.etherium {
+  width: 32%;
+}
+
+.bitcoin {
+  margin: 5px;
+  background-image: url("../images/bitcoin.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+}
+
+.arrow {
+  margin: 5px;
+  width: 12px;
+  height: 8px;
+  background-image: url("../images/arrow-right.png");
+  background-repeat: no-repeat;
+}
+.visa-card {
+  margin: 5px;
+  width: 27px;
+  height: 26px;
+  background-image: url("../images/card.png");
+}
+
+.eth-img {
+  margin: 5px;
+  width: 26px;
+  height: 26px;
+  background-image: url("../images/etherium.png");
+}
+
+.adv-img {
+  margin: 5px;
+  width: 27px;
+  height: 26px;
+  background-image: url("../images/advcash.png");
+}
+
+.section_1,
+.section_2 {
+  margin-top: 33px;
+  width: 100%;
+  max-width: 400px;
+  height: 72px;
+  display: flex;
+  outline: 1px solid #efefef;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.left-side {
+  flex-wrap: wrap;
+}
+
+.user-send,
+.user-get {
+  margin-top: 11px;
+  margin-left: 11px;
+  width: 100%;
+  height: 19px;
+  font-family: 'roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a3a3a3;
+}
+.user-send:hover {
+  cursor: pointer;
+}
+
+.userValue {
+  margin-left: 11px;
+  width: 100%;
+  height: 28px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212121;
+}
+
+
+.send-currency,
+.get-currency {
+  display: flex;
+  width: 400px;
+  height: 19px;
+}
+
+.send-currency:hover {
+  cursor: pointer;
+}
+
+.sendValue,
+.getValue {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  height: 100%;
+  margin-right: 5%;
+}
+
+.send-img {
+  margin-right: 5%;
+  width: 10%;
+  height: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/card.png");
+  
+}
+
+
+.current-currency {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  font-size: 14px;
+}
+
+.arrow-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  width: 5%;
+  height: 100%;
+  font-size: 10px;
+  color: #a3a3a3;
+  
+}
+
+.commission {
+  margin-left: 11px;
+  margin-top: 8px;
+  width: 45%;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  color: #a3a3a3;
+  
+}
+
+.commission span {
+  font-weight: 900;
+  color: #212121;
+}
+
+.send-options {
+  display: none;
+  
+  flex-direction: column;
+  width: 400px;
+  height: 169px;
+  outline: 1px solid #f2f2f2;
+}
+.send-options > div, .get-options > div {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  width: 90%;
+  height: 25%;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 14px;
+}
+.send-options > div:last-child {
+  border: none;
+}
+.send-options > div:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.send-options > div img {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+}
+
+.checkbox {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  height: 19px;
+  color: #212121;
+  font-size: 14px;
+  font-family: 'roboto', sans-serif;
+  
+} 
+
+.checkbox input {
+  color: red;
+  background-color: red;
+}
+
+.send-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 42px;
+  margin-top: 21px;
+  
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color: #212121;
+  color: #ffffff
+}
+
+/* style for get-options */
+.get-img {
+  margin-right: 5%;
+  width: 10%;
+  height: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/etherium.png");
+}
+
+.getCash {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  font-size: 14px;
+}
+
+.get-options {
+  display: none;
+  flex-direction: column;
+  width: 400px;
+  height: 169px;
+  outline: 1px solid #f2f2f2;
+}
+.get-options > div {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  width: 90%;
+  height: 25%;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 14px;
+}
+.get-options > div:last-child {
+  border: none;
+}
+.get-options > div:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.get-options > div img {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 17px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #212121;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 3px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media (max-width: 1400px) {
+  .main-container {
+    max-width: 1200px;
+  }
+  .title {
+    margin-top: 100px;
+  }
+
+  .form {
+    margin-top: 70px;
+  }
+
+  nav {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    max-width: 1000px;
+    height: 820px;
+  }
+
+  main {
+    flex-wrap: wrap;
+  } 
+
+  .left_section, .right_section {
+    width: 100%;
+    height: 400px;
+  }
+  .title, .form {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-container {
+    max-width: 800px;
+  }
+}
